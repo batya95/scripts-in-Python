@@ -14,6 +14,18 @@ Usage:
 
 python changeText.py <old_string> <new_string>
 
+- <path>: The path to the directory where the replacement should be performed
+- <old_string>: The string to be replaced
+- <new_string>: The new string that will replace the old one
+
+## changeFileName.py
+
+This script changes the name of a file (without changing its extension) to a new name.
+
+Usage:
+
+python changeFileName.py <file_path> <new_name>
+
 - <file_path>: The full path to the file to be renamed
 - <new_name>: The new name to be given to the file (without extension)
 
