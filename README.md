@@ -10,7 +10,7 @@ This README explains how to use the following three scripts:
 
 This script replaces an old string with a new string in all files within a specified directory and its subdirectories.
 
-Usage:
+### Usage:
 
 python changeText.py <old_string> <new_string>
 
@@ -22,7 +22,7 @@ python changeText.py <old_string> <new_string>
 
 This script changes the name of a file (without changing its extension) to a new name.
 
-Usage:
+### Usage:
 
 python changeFileName.py <file_path> <new_name>
 
@@ -33,7 +33,7 @@ python changeFileName.py <file_path> <new_name>
 
 This script copies files of a specific type from one directory to another.
 
-Usage:
+### Usage:
 
 python copyFiles.py <source_directory> <file_extension> <destination_directory>
 
